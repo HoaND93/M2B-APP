@@ -1,0 +1,28 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Detail Service</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="toUpdatePage()">
+          Edit
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content *ngIf="service">
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Name</ion-label>
+      <ion-label class="label-value">{{service.name}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Price</ion-label>
+      <ion-label class="label-value">{{service.price}}</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

@@ -1,0 +1,67 @@
+page-login {
+    .list-ios .item-block .item-inner{
+        border-bottom: 0px solid !important; 
+    }
+    .logo{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    img{
+        max-width: 50%;
+    }
+    ion-content{
+        background-color: #ffffff;
+    }
+    .item-md {
+        background-color: transparent;
+    }
+    .btn-login{
+        background-color: #343585;
+    }
+    .btn-forget{
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        color: #343585;
+    }
+    ion-item.item-input{
+        border-bottom: 1px solid #ffffff !important;
+    }
+    ion-item.item-input.input-has-focus{
+        border-bottom: 1px solid #343585 !important;
+    }
+    .list-md .item-input:last-child {
+        border-bottom: 0px;
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #ffffff;
+        opacity: 1; /* Firefox */
+    }
+    input:focus{
+        outline: none;
+    }
+    .item-md.item-input.item-input-has-focus .item-inner,
+    .item-md.item-input.input-has-focus .item-inner {
+        border-bottom: 0px !important;
+    }
+    input, ion-icon{
+        color: #343585
+    }
+    .scroll-content {
+        margin: auto 20px !important;
+        position: fixed !important;
+        height: 300px !important;
+        overflow: hidden !important;
+    }
+    .item-md.item-input.item-input-has-focus .item-inner,
+        .item-md.item-input.input-has-focus .item-inner,
+        .list-md .item-input.item-input-has-focus:last-child,
+        .list-md .item-input.input-has-focus:last-child  {
+        box-shadow: 0 0px 0 0 !important;
+    }
+    .item-md.item-block .item-inner {
+        border-bottom: 0px !important;
+    }
+    .list-ios > .item-block:first-child {
+        border-top: 0px !important;
+    }
+}

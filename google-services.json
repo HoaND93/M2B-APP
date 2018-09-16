@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "554550109227",
+    "firebase_url": "https://m2bapp-bcf4b.firebaseio.com",
+    "project_id": "m2bapp-bcf4b",
+    "storage_bucket": "m2bapp-bcf4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554550109227:android:0ea57a9fd7e97df1",
+        "android_client_info": {
+          "package_name": "com.metobeauty.providerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554550109227-m2dvfj3bf3a2sok52cabigft157p62tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhUqGWImV4oyPu4SCjSKF3mwnuacykgh0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554550109227:android:764d2cb7da3280eb",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554550109227-m2dvfj3bf3a2sok52cabigft157p62tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhUqGWImV4oyPu4SCjSKF3mwnuacykgh0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

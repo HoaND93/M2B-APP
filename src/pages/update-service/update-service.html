@@ -1,0 +1,30 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Update Service</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="doUpdateService()">
+          Save
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content *ngIf="service">
+
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Name</ion-label>
+      <ion-input type="text" [(ngModel)]="service.name"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label floating>Price</ion-label>
+      <ion-input type="number" [(ngModel)]="service.price"></ion-input>
+    </ion-item>
+  
+  </ion-list>
+
+</ion-content>
